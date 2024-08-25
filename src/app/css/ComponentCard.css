@@ -1,0 +1,57 @@
+.component-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  position: relative;
+  width: 190px;
+  color: white;
+  height: 260px;
+  background: #444;
+  border-radius: 14px;
+}
+
+.content {
+  position: relative;
+  padding: 14px 16px;
+}
+
+.img {
+  height: 5em;
+  width: 5em;
+  margin: auto;
+  background-color: #fff3;
+  border-radius: 1em;
+}
+
+.img svg {
+  height: 100%;
+  fill: white;
+}
+
+.content div {
+  text-align: center;
+}
+
+.nombre {
+  margin: 0.5em;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.list {
+  padding: 0.5em;
+  background-color: #0003;
+  border-radius: 1em;
+}
+
+.list-item {
+  margin-top: 0.5em;
+  font-size: 0.75em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  list-style: none;
+}
